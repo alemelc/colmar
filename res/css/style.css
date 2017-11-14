@@ -63,21 +63,33 @@ header {
 	justify-content: space-between;
 	align-items: center;
 	margin: 0 24px;
+	/*border: 2px red dashed;*/
 }
 
 #logo {
-	display: flex;
-	align-items: center;
+	/*display: flex;*/
+	/*align-items: center;*/
+	/*border: 2px blue dashed;*/
+	position: relative;
+
 }
 
 #logo p {
 	color: #939393;
 	font-weight: bold;
+	/*border: 1px red dashed;*/
+	float: right;
+	position: absolute;
+  	top: 50%;
+ 	transform: translateY(-50%);
+ 	margin-left: 25px;
 }
 
 header img {
 	height: 32px;
 	width: auto;
+	/*border: 1px green dashed;*/
+	float: left;
 }
 
 
@@ -108,13 +120,23 @@ nav span {
 
 
 /* FIRST BLOCK JUMBOTRON*/
+#first-block {
+	display: inline-block;
+	background-color: lightgrey;
+	/*border: 3px dashed red;*/
+	position: relative;
+}
 
+
+/*
 #first-block {
 	display: flex;
 	background-color: lightgrey;
 	justify-content: space-between;
 	align-items: center;
+	border: 3px dashed red;
 }
+*/
 
 /*
 #first-block .image-container {
@@ -127,7 +149,7 @@ nav span {
 */
 
 #first-block img {
-	max-width: 55%;
+	max-width: 60%;
 	height: auto;
 	display: inline-block;
 	padding: 32px 24px;
@@ -137,10 +159,16 @@ nav span {
 #first-block .image-description {
 	width: 30%;
 	margin-right: 65px;
-	/*border: 3px red dashed;*/
+	margin-left: 12px;
+	display: inline-block;
+	/*border: 3px blue dashed;*/
+	position: absolute;
+  	top: 50%;
+  	transform: translateY(-50%);
 }
 
 #first-block .image-description .button {
+	display: inline-block;
 	width: 90%;
 	font-size: 15px;
 	margin-top: 20px;
@@ -464,9 +492,9 @@ nav span {
 
 #fourth-block .side-articles {
 	padding-top: 0;
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
+	/*display: flex;*/
+	/*flex-direction: column;*/
+	/*justify-content: flex-start;*/
 	/*border: 3px dashed blue;*/
 }
 
@@ -475,7 +503,7 @@ nav span {
 	justify-content: center;
 	background-color: lightgray;
 	padding: 16px;
-	/*border: 3px dashed blue;*/
+	/*border: 3px dashed red;*/
 }
 
 #fourth-block .second-side-article {
@@ -483,7 +511,7 @@ nav span {
 	justify-content: center;
 	/*background-color: lightgray;*/
 	padding: 16px;
-	/*border: 3px dashed blue;*/
+	/*border: 3px dashed green;*/
 }
 
 @media only screen and (max-width: 480px) {
