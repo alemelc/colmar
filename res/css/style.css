@@ -182,8 +182,9 @@ nav span {
 @media only screen and (max-width: 480px) {
 
 	#first-block {
-		display: block;
+		position: static;
 		padding-bottom: 32px;
+		/*border: 3px red dashed;*/
 	}
 
 	#first-block img {
@@ -195,11 +196,14 @@ nav span {
 }
 
 	#first-block .image-description {
+	position: static;
+	top: auto;
+	transform: none;
 	width: 100%;
 	margin: 0;
 	padding: 0;
 	padding: 0px 16px;
-	/*border: 3px red dashed;*/
+	
 
 }
 
@@ -313,7 +317,7 @@ nav span {
 	/*border: 3px dashed red;*/
 }
 
-.side-article:nth-child(3) {
+.side-article:hover {
 	background-color: lightgrey;
 }
 
@@ -498,22 +502,22 @@ nav span {
 	/*border: 3px dashed blue;*/
 }
 
-#fourth-block .first-side-article {
-	display: flex;
-	justify-content: center;
-	background-color: lightgray;
-	padding: 16px;
-	/*border: 3px dashed red;*/
-}
-
-#fourth-block .second-side-article {
+#fourth-block .side-article {
 	display: flex;
 	justify-content: center;
 	/*background-color: lightgray;*/
 	padding: 16px;
-	/*border: 3px dashed green;*/
+	/*border: 3px dashed red;*/
 }
-
+/*
+#fourth-block .second-side-article {
+	display: flex;
+	justify-content: center;
+	background-color: lightgray;
+	padding: 16px;
+	/*border: 3px dashed green;
+}
+*/
 @media only screen and (max-width: 480px) {
 	#fourth-block .side-articles {
 		display: none;
