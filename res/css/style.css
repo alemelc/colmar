@@ -120,7 +120,7 @@ header {
 	display: flex;
 	align-items: center;
 	position: relative;
-	padding-top: 10px;
+	
 }
 
 #logo p {
@@ -130,7 +130,7 @@ header {
   	top: 50%;
  	transform: translateY(-50%);
  	margin-left: 25px;
- 	padding-top: 10px;
+ 	
 }
 
 header img {
