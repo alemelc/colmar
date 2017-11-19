@@ -116,14 +116,6 @@ header {
 	background-color: white;
 }
 
-/*
-#logo {
-	display: flex;
-	align-items: center;
-	position: relative;
-}
-*/
-
 #logo img {
 	float: left;
 }
@@ -132,17 +124,9 @@ header {
 	color: #939393;
 	font-weight: bold;
 	margin-top: 8px;
-	/*position: absolute;*/
-  	/*top: 50%;*/
- 	/*transform: translateY(-50%);*/
  	margin-left: 0px;
  	float: left;
 }
-
-
-
-
-
 
 header img {
 	height: 32px;
