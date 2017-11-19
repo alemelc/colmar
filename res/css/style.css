@@ -3,7 +3,7 @@
 html {
 	font-family: Helvetica, sans-serif;
 	font-size: 16px;
-	box-sizing: border-box;
+	box-sizing: border-box; /* to make margin and padding inside the width*/
 }
 
 *, *:before, *:after {
@@ -116,20 +116,33 @@ header {
 	background-color: white;
 }
 
+/*
 #logo {
 	display: flex;
 	align-items: center;
 	position: relative;
 }
+*/
+
+#logo img {
+	float: left;
+}
 
 #logo p {
 	color: #939393;
 	font-weight: bold;
-	position: absolute;
-  	top: 50%;
- 	transform: translateY(-50%);
- 	margin-left: 25px;
+	margin-top: 8px;
+	/*position: absolute;*/
+  	/*top: 50%;*/
+ 	/*transform: translateY(-50%);*/
+ 	margin-left: 0px;
+ 	float: left;
 }
+
+
+
+
+
 
 header img {
 	height: 32px;
@@ -137,7 +150,6 @@ header img {
 }
 
 #colmar {
-	
 	color: black;
 }
 
@@ -175,7 +187,7 @@ nav a:hover {
 	header nav {
 		display: none;
 	}
-	
+
 	header .mobile-nav {
 		width: 100%;
 		display: flex;
